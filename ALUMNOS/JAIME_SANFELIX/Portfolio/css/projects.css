@@ -1,0 +1,13 @@
+.projects{
+    padding: 2rem 0;
+}
+
+.projects__title{
+    margin-bottom: 1.25rem;
+}
+
+.projects__grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+}
