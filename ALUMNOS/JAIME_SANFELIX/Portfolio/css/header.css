@@ -2,8 +2,14 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
     justify-content: space-between;
     gap: 0 1.5rem;
+}
+@media (max-width: 491px) {
+    .header__nav{
+    flex-direction: column;
+}    
 }
 
 .header__name{
